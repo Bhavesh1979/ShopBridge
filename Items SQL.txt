@@ -1,0 +1,8 @@
+CREATE TABLE `items` (
+  `ID` int(11) NOT NULL auto_increment,
+  `ItemName` varchar(45) collate utf8_bin default NULL,
+  `Price` double default NULL,
+  `Image` text collate utf8_bin,
+  `Description` text collate utf8_bin,
+  PRIMARY KEY  (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
